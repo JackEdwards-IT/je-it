@@ -1,7 +1,6 @@
 <template>
   <div class="portfolio">
     <b-container>
-       <navbar></navbar>
 
     <b-row>
            <b-col></b-col>
@@ -23,11 +22,8 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue';
 
 export default {
-  components: { "navbar": Navbar}
-  
 }
 </script>
 

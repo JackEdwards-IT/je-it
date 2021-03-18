@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <navbar v-show="showNavBar"></navbar>
+    
     
     <transition
       name="fade"
@@ -8,21 +10,29 @@
       @enter="enter"
       @afterEnter="afterEnter"
       >
+      
       <router-view/>
     </transition>
-
-     <!-- <footer class="App__footer">
-       <b-row>
-      &copy; Jack Edwards {{ new Date().getFullYear() }}
-       </b-row>
-    </footer> -->
-   
   </div>
 </template> 
 
 <script>
+import Navbar from "@/components/Navbar.vue";
+
 export default {
   name: 'App',
+  // props: {
+  //   showNavBar: Boolean,
+  // },
+  computed: {
+    showNavBar(){
+      if (this.$route.path === "/"){
+        return false;
+      } else {
+        return true;
+      }
+    }
+  },
   data(){
     return {
       prevHeight: 0,
@@ -44,8 +54,8 @@ export default {
     afterEnter(element) {
       element.style.height = 'auto';
     },
-
   },
+  components: { navbar: Navbar },
 };
 </script>
 
@@ -61,10 +71,9 @@ html,
 body {
     background-color: #1D1D1D !important;
 }
-
  .fade-enter-active,
  .fade-leave-active {
-   transition-duration: 0.3s;
+   transition-duration: 0.0s;
    transition-property: opacity;
    transition-property: height, opacity;
    transition-timing-function: ease;

@@ -1,66 +1,167 @@
 <template>
-    <ul id="navigation">
-            <nav class="navbar">
-                <router-link to="/"><li>Home</li></router-link>
-                <router-link to="resume"><li>Qualifications</li></router-link>
-                <router-link to="portfolio"><li>Portfolio</li></router-link>
-                <router-link to="about"><li>About</li></router-link>
-                <router-link to="contact"><li>Contact</li></router-link>
-            </nav>
-        </ul>
+<b-container>
+    <!-- NavBar -->
+  <ul id="navigation">
+    <nav class="navbar">
+      <router-link to="/"><li>Home</li></router-link>
+      <router-link to="resume"><li>Qualifications</li></router-link>
+      <router-link to="portfolio"><li>Portfolio</li></router-link>
+      <router-link to="about"><li>About</li></router-link>
+      <router-link to="contact"><li>Contact</li></router-link>
+    </nav>
+  </ul>
+  <!-- Hamburger -->
+
+<div class="burger">
+    <Slide 
+    right 
+    width="200"
+    :closeOnNavigation="true">
+      <router-link to="/"><li>Home</li></router-link>
+      <router-link to="resume"><li>Qualifications</li></router-link>
+      <router-link to="portfolio"><li>Portfolio</li></router-link>
+      <router-link to="about"><li>About</li></router-link>
+      <router-link to="contact"><li>Contact</li></router-link>
+    </Slide>
+</div>
+  
+
+</b-container>
 </template>
 
 
 <script>
+import { Slide } from 'vue-burger-menu'
 export default {
-}
+    components: {
+        Slide
+    }
+};
 </script>
 
 <style scoped>
-
-
 ul {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
 li {
-    display: inline;
-    text-align: center;
-    padding-right: 0vw;
-    text-decoration: none; 
-    font-family: 'Titillium Web', sans-serif; 
-    font-weight: 900;
-    letter-spacing: 4px;
-    color: #DA4167;
-    font-size: calc(50% + 0.5vw + 0.5vh);
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
+  display: inline;
+  text-align: center;
+  padding-right: 0vw;
+  text-decoration: none;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  letter-spacing: 4px;
+  color: #da4167;
+  font-size: calc(50% + 0.5vw + 0.5vh);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 li:hover,
 #active-page {
-    cursor: pointer;
-    color: #35A7FF;
-    text-shadow:0px 0px 30px #35A7FF;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
+  cursor: pointer;
+  color: #35a7ff;
+  text-shadow: 0px 0px 30px #35a7ff;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
-.router-link-exact-active > li{
+.router-link-exact-active > li {
   opacity: 1;
   text-decoration: none;
-  color: #91CFFF;
-  text-shadow: 0px 0px 30px #B6DF5D;
+  color: #91cfff;
+  text-shadow: 0px 0px 30px #b6df5d;
   /* OG shadow and text colour: #35A7FF  */
 }
 
-a, a:link, a:visited, a:focus, a:hover, a:active{
-  text-decoration:none !important;
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none !important;
 }
+.burger{
+    visibility: hidden;
+}
+/* Media query  */
+@media only screen and (max-width: 850px){
+    .navbar{
+        visibility: hidden;
+    }
+    .burger{
+        visibility: visible;
+    }
+}
+</style>
 
+// Styling for burger menu
+<style>
+.bm-burger-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      left: 36px;
+      top: 36px;
+      cursor: pointer;
+    }
+    .bm-burger-bars {
+      background-color: #da4167;
+    }
+    .line-style {
+      position: absolute;
+      height: 20%;
+      left: 0;
+      right: 0;
+    }
+    .cross-style {
+      position: absolute;
+      top: 12px;
+      right: 2px;
+      cursor: pointer;
+    }
+    .bm-cross {
+      background: #da4167;
+    }
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+    }
+    .bm-menu {
+      height: 100%; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1000; /* Stay on top */
+      top: 0;
+      left: 0;
+      background-color: rgb(63, 63, 65); /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
+    }
 
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    .bm-item-list {
+      color: #b8b7ad;
+      margin-left: 10%;
+      font-size: 20px;
+    }
+    .bm-item-list > * {
+      display: flex;
+      text-decoration: none;
+      padding: 0.7em;
+    }
+    .bm-item-list > * > span {
+      margin-left: 10px;
+      font-weight: 700;
+      color: white;
+    }
 </style>

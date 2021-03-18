@@ -1,8 +1,7 @@
 <template>
   <div class="contact">
     <b-container>
-    <navbar></navbar>
-
+  
     <b-row>
            <b-col></b-col>
             <b-col cols="10"><h1 class="h1-responsive">Contact</h1></b-col>
@@ -24,11 +23,8 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue';
 
 export default {
-  components: { "navbar": Navbar}
-  
 }
 </script>
 <style scoped>

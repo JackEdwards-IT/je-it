@@ -2,10 +2,10 @@
   
     <div class="home">
         <b-container>
-         
+          <b-row class="form-group"></b-row>
          <b-row>
            <b-col></b-col>
-            <b-col cols="10"><h1 class="h1-responsive">Hi,</h1></b-col>
+            <b-col cols="10"><h1>Hi,</h1></b-col>
             <b-col></b-col>
          </b-row>
          <b-row>
@@ -21,7 +21,7 @@
           <b-row class="form-group"></b-row>
           <b-row>
             <b-col></b-col>
-           <b-col cols="10"> <h2 class="h2-responsive">Developing skills in full stack web development, cloud platforms, Java programming and creating IOT projects in my spare time.</h2></b-col>
+           <b-col cols="10"> <h2>Developing skills in full stack web development, cloud platforms, Java programming and creating IOT projects in my spare time.</h2></b-col>
           <b-col></b-col>
           </b-row>
 
@@ -42,8 +42,6 @@
         
 </template>
 
- 
-
 <script>
 // import Navbar from '@/components/Navbar.vue';
 
@@ -56,15 +54,6 @@ export default {
 </script>
 
 <style>
-
- .home {
-   padding-top: 20vh;
- }
- @media only screen and (max-width: 1100px) {
-   .home {
-     padding-top: 5px;
-   }
- }
 /*Fonts*/
 h1 {
     font-family: 'Titillium Web', sans-serif;
@@ -81,21 +70,6 @@ h3{
     font-weight: 100;
 }
 
-.h1-responsive,
-.firstLine,
-.secondLine {
-  font-size: calc(70% + 1vw + 1vh);
-}
-.h2-responsive {
-  font-size: calc(50% + 0.7vw + 0.7vh);
-}
-.h3-responsive {
-  font-size: calc(20% + 0.7vw + 0.7vh);
-}
-.menu-text {
-  font-size: calc(30% + 0.6vw + 0.6vh)
-}
-
 /*Individual lettering colours, using v-lettering*/
 
  .firstLine .vl--i-5, .firstLine .vl--i-10{ 
@@ -105,8 +79,6 @@ h3{
     color: red;
 }
 
-
-
 li {
     display: inline;
     text-align: center;
@@ -115,7 +87,7 @@ li {
     font-family: 'Titillium Web', sans-serif; 
     font-weight: 900;
     letter-spacing: 4px;
-    /* font-size: 19px; */
+  
     color: #DA4167;
     
     -moz-transition: all 0.2s ease-in;
