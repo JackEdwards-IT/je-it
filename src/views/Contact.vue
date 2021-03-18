@@ -12,14 +12,30 @@
         <b-col cols="2"></b-col>
 
         <b-col cols="8">
-          <form :model="form" @submit.prevent="submit" ref="contactForm">
-            <div class="form-group row">
-              <label></label>
-              <div class="col-sm-10">
-              
-              </div>
-            </div>
-            <div class="form-group row">...</div>
+          <b-form
+            :model="form"
+            @submit.prevent="submit"
+            ref="contactForm"
+            action="https://formspree.io/f/mjvpnqep"
+            method="POST"
+          >
+            <b-form-input
+              type="text"
+              placeholder="Enter your name"
+              required
+            ></b-form-input>
+            <b-form-input
+              type="email"
+              placeholder="Enter email"
+              required
+            ></b-form-input>
+            <b-form-textarea
+              rows="3"
+              max-rows="10"
+              placeholder="Enter your message"
+              required
+            ></b-form-textarea>
+
             <div class="form-group row">
               <label for="robot" class="col-sm-2 col-form-label"></label>
               <div class="col-sm-10">
@@ -31,8 +47,8 @@
                 </vue-recaptcha>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary mb-2">Send</button>.
-          </form>
+            <b-button type="submit" variant="primary">Send</b-button>.
+          </b-form>
         </b-col>
 
         <b-col cols="2"></b-col>
@@ -49,12 +65,12 @@ export default {
   data() {
     return {
       form: {
-        robot: false
-      }
-    }
+        robot: false,
+      },
+    };
   },
   methods: {
-    submit: function() {
+    submit: function () {
       if (this.form.robot) {
         console.log("test");
       }
