@@ -1,7 +1,6 @@
 <template>
   <div class="about">
     <b-container>
-      
       <b-row>
         <b-col cols="5"></b-col>
         <b-col cols="2"><h1>About</h1></b-col>
@@ -78,10 +77,6 @@ export default {
 
 <style scoped>
 
-/* .link-out{
-  margin: 4px 2px 0 2px;
-  letter-spacing: 0.5px;
-} */
 .p-responsive{
   text-align: justify;
 }
