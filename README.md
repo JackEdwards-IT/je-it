@@ -19,6 +19,6 @@ npm run build
 ```
 npm run lint
 ```
+## Third party components
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue Burger - https://github.com/mbj36/vue-burger-menu
