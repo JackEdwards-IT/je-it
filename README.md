@@ -21,4 +21,4 @@ npm run lint
 ```
 ## Third party components
 
-Vue Burger - https://github.com/mbj36/vue-burger-menu
+Vue Burger Menu - https://github.com/mbj36/vue-burger-menu
