@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <navbar v-show="showNavBar"></navbar>
-    
+
     
     <transition
       name="fade"
@@ -93,7 +93,7 @@ h1 {
     color: white;
     letter-spacing: 1px;
 }
-h2{
+h2, b-label{
     font-family: 'Titillium Web', sans-serif;
     color: lightgray;
 }
@@ -116,6 +116,7 @@ p {
 .p-responsive {
    font-size: calc(50% + 0.5vw + 0.5vh);
 }
+label {color: white !important;}
 
 
 </style>
