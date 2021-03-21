@@ -93,14 +93,11 @@ h1 {
     color: white;
     letter-spacing: 1px;
 }
-h2, b-label{
+h2, p, label{
     font-family: 'Titillium Web', sans-serif;
     color: lightgray;
 }
-p {
-  font-family: 'Titillium Web', sans-serif;
-  color: lightgray;
-}
+
 .h1-responsive,
 .firstLine,
 .secondLine {
@@ -116,7 +113,7 @@ p {
 .p-responsive {
    font-size: calc(50% + 0.5vw + 0.5vh);
 }
-label {color: white !important;}
+
 
 
 </style>

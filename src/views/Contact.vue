@@ -54,12 +54,15 @@
                 max-rows="7"
               ></b-form-textarea>
             </b-form-group>
-            >
-            <!-- Recaptcha Checkbox -->
-            <div class="g-recaptcha" data-sitekey="6LexGYQaAAAAAE8UsVFh8COeUN1GNCmDNPXqP0uL"></div>
-            <b-button variant="success" type="submit" value="Send"
+            >   
+
+            <!-- TODO remove hardcoding of submit state to reflect response from emailJS API  -->
+
+            <b-button :disabled="submitDisabled" @click="changeStates(true)" variant="success" type="submit" value="Send"
               >Send</b-button
             >
+
+ 
           </b-form>
           <!-- Indicate success or failure of form submission -->
           <div
@@ -93,7 +96,8 @@ import emailjs from "emailjs-com";
 export default {
   data() {
     return {
-      messageNotSent: true,
+      submitDisabled: false,
+      messageNotSent: false,
       messageSent: false,
     };
   },
@@ -108,15 +112,25 @@ export default {
         )
         .then(
           () => {
-            // console.log("SUCCESS!", result.status, result.text);
-            this.messageSent = true;
+            console.log("FORM SUCCESS!");  
           },
           () => {
-            // console.log("FAILED...", error);
-            this.messageNotSent = true;
+            console.log("FORM FAILED...");
           }
         );
     },
+
+    changeStates(outcome){
+      if(outcome){
+        this.messageSent = true;
+        this.submitDisabled = true;
+      } else {
+        this.messageNotSent = true;
+        this.submitDisabled = true;
+      }
+
+    },
+
   },
 };
 </script>
