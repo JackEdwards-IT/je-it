@@ -2,16 +2,16 @@
   <div class="about">
     <b-container>
       <b-row>
-        <b-col cols="5"></b-col>
-        <b-col cols="2"><h1>About</h1></b-col>
-        <b-col cols="5"></b-col>
+        <div class="mx-auto">
+        <h1>About</h1>
+        </div>
       </b-row>
 
       <b-row class="form-group"></b-row>
 
       <b-row>
-        <b-col cols="1"></b-col>
-        <b-col cols="10">
+        <b-col cols="0" md="1"></b-col>
+        <b-col cols="12" md="10">
           <p class="p-responsive">
             I grew up on the South Coast of NSW just outside of Bega, after I
             finished high school I moved to Wollongong (my friends were off to
@@ -25,44 +25,41 @@
             (sci-fi tragic!).
           </p>
         </b-col>
-        <b-col cols="1"></b-col>
+        <b-col cols="0" md="1"></b-col>
       </b-row>
       <!-- Spaceing -->
       <b-row class="form-group"></b-row>
 
   
       <b-row>
-        <b-col cols="1"></b-col>
-        <b-col cols="10">
+        <b-col cols="0" md="1"></b-col>
+        <b-col cols="12" md="10">
           <img
             src="../assets/banner.jpg"
             class="img-fluid banner"
             alt="Sunrise over hills"
           />
         </b-col>
-        <b-col cols="1"></b-col>
+        <b-col cols="0" md="1"></b-col>
       </b-row>
 
       <b-row>
-        
-        <b-col cols="4"></b-col>
-        <b-col cols="6">
-  
+        <div class="mx-auto mt-3"> 
           <b-button target="_blank"
-           class="link-out mr-2 mt-1"
+           class="link-out mr-2 "
            variant="danger"
            href="https://www.instagram.com/jacks_nature_pics/?hl=en">
           Instagram Photos
           </b-button>
   
           <b-button target="_blank"
-           class="link-out mt-1"
+           class="link-out "
            variant="danger"
            href="https://www.goodreads.com/user/show/86337535-jack">
           Goodreads Profile
           </b-button>
-        </b-col>
-        
+        </div>
+      
       </b-row>
     </b-container>
   </div>

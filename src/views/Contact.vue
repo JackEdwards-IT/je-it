@@ -2,15 +2,15 @@
   <div class="contact">
     <b-container>
       <b-row>
-        <b-col cols="4"></b-col>
-        <b-col cols=""><h1 class="h1-responsive">Contact</h1></b-col>
-        <b-col cols="4"></b-col>
+        <div class="mx-auto">
+        <h1>Contact</h1>
+        </div>
       </b-row>
 
       <b-row>
-        <b-col cols="2"></b-col>
+        <b-col cols="0" md="2"></b-col>
 
-        <b-col cols="8">
+        <b-col cols="12" md="8">
           <b-form class="contact-form" @submit.prevent="sendEmail">
             <b-form-group
               id="input-group-1"
@@ -35,7 +35,7 @@
               <b-form-input
                 id="input-2"
                 name="from_name"
-                placeholder="Enter name"
+                placeholder="Enter Name"
                 required
               ></b-form-input>
             </b-form-group>
@@ -83,7 +83,7 @@
           </div>
         </b-col>
 
-        <b-col cols="2"></b-col>
+        <b-col cols="0" md="2"></b-col>
       </b-row>
     </b-container>
   </div>

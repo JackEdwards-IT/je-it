@@ -15,7 +15,7 @@
 <div class="burger">
     <Slide 
     right 
-    width="200"
+    width="180"
     :closeOnNavigation="true">
       <router-link to="/"><li>Home</li></router-link>
       <router-link to="resume"><li>Qualifications</li></router-link>
@@ -88,15 +88,15 @@ a:active {
   text-decoration: none !important;
 }
 .burger{
-    visibility: hidden;
+    display: none;
 }
 /* Media query  */
 @media only screen and (max-width: 850px){
     .navbar{
-        visibility: hidden;
+        display: none;
     }
     .burger{
-        visibility: visible;
+        display: inline;
     }
 }
 </style>
@@ -107,9 +107,9 @@ a:active {
       position: fixed;
       width: 36px;
       height: 30px;
-      left: 36px;
-      top: 36px;
+      top: 10px;
       cursor: pointer;
+      right: 10px !important;
     }
     .bm-burger-bars {
       background-color: #da4167;
@@ -151,7 +151,7 @@ a:active {
     }
     .bm-item-list {
       color: #b8b7ad;
-      margin-left: 10%;
+      margin-left: 5%;
       font-size: 20px;
     }
     .bm-item-list > * {

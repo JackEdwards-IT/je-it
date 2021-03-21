@@ -2,7 +2,6 @@
   <div id="app">
     <navbar v-show="showNavBar"></navbar>
 
-    
     <transition
       name="fade"
       mode="out-in"
@@ -10,7 +9,6 @@
       @enter="enter"
       @afterEnter="afterEnter"
       >
-      
       <router-view/>
     </transition>
   </div>
@@ -21,9 +19,6 @@ import Navbar from "@/components/Navbar.vue";
 
 export default {
   name: 'App',
-  // props: {
-  //   showNavBar: Boolean,
-  // },
   computed: {
     showNavBar(){
       if (this.$route.path === "/"){
@@ -83,9 +78,9 @@ body {
 .fade-leave-active {
   opacity: 0
 }
-.App__footer {
+/* .App__footer {
   color: white;
-}
+} */
 
 /*Fonts*/
 h1 {
@@ -113,7 +108,6 @@ h2, p, label{
 .p-responsive {
    font-size: calc(50% + 0.5vw + 0.5vh);
 }
-
 
 
 </style>
