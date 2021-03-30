@@ -6,6 +6,8 @@ This is my first foray into a using a frontend framework (specifically Vue.js).
 
 Being a simple static site it has been a good intro to Vue and Bootstrap.
 
+Please note the other Github account contributing early on is my uni account that I will be phasing out as I near completeion of my degree.
+
 
 ## DEV: Project Setup
 ```
