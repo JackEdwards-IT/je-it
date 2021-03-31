@@ -30,7 +30,7 @@
 
         <b-col cols="12" md="8">
           <p class="p-responsive" id="writeup">
-            Strong focus on full stack web development with exposure to
+            Interested in full stack web development with exposure to
             languages and platforms including Java, C, PHP, Node.js, Vue.js,
             PgSql & Wordpress. See the portfolio section for an overview of some
             of my projects and technologies I have used.
@@ -38,9 +38,9 @@
           <b-row class="form-group"></b-row>
           <p class="p-responsive" id="writeup">
             I am ambitous and enjoy taking on new challenges, such as learning
-            new languages and frameworks. The more I learn and expand my
-            knowledge, the more flexible I become in solving problems.
-          </p>
+            new languages and frameworks. I am not set on doing just one job or career path, I am 
+            open to all aspects of IT and enjoy the flexibility that a well rounded skill set can provide.
+          </p> 
 
           <b-row class="form-group"></b-row>
           <p class="p-responsive" id="writeup">

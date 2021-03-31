@@ -21,7 +21,7 @@
           <b-row class="form-group"></b-row>
           <b-row>
             <b-col></b-col>
-           <b-col cols="10"> <h2>Developing skills in full stack web development, cloud platforms, Java programming and creating IOT projects in my spare time.</h2></b-col>
+           <b-col cols="10"> <h2>Developing skills in full stack web development, cloud platforms, Java programming and building IOT projects in my spare time.</h2></b-col>
           <b-col></b-col>
           </b-row>
 

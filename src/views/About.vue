@@ -13,16 +13,15 @@
         <b-col cols="0" md="1"></b-col>
         <b-col cols="12" md="10">
           <p class="p-responsive">
-            I grew up on the South Coast of NSW just outside of Bega, after I
+            I grew up on the South Coast of NSW just outside of Bega. After I
             finished high school I moved to Wollongong (my friends were off to
             university there) and worked in various jobs for a few years. I have
-            always had passion for IT and with a bit of encouragement I finally
+            always had passion for IT and with some encouragement I finally
             took up study as a mature age student.<br /><br />
             I have just recently moved back to the South Coast and enjoy the
             peace and quite the country has to offer. In my spare time I enjoy
-            gardening, growing vegetables and herbs, keeping fit, working on
-            various projects in the shed. I also enjoy photography and reading
-            (sci-fi tragic!).
+            gardening, keeping fit, working on various projects in the shed, photography and reading
+            (sci-fi fan).
           </p>
         </b-col>
         <b-col cols="0" md="1"></b-col>
@@ -49,9 +48,16 @@
            class="link-out mr-2 "
            variant="danger"
            href="https://www.instagram.com/jacks_nature_pics/?hl=en">
-          Instagram Photos
+          Instagram Photography
           </b-button>
   
+          <b-button target="_blank"
+           class="link-out mr-2 "
+           variant="danger"
+           href="https://www.instagram.com/jack_edwards_it/?hl=en">
+          Instagram IT
+          </b-button>
+
           <b-button target="_blank"
            class="link-out "
            variant="danger"
