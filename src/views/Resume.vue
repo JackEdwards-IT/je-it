@@ -20,10 +20,10 @@
           <p class="p-responsive education-title">
             Bachelor of Information Technolgy
           </p>
-          <p class="p2-responsive">2018 - 2021</p>
-          <p class="p2-responsive">Royal Melbourne Institute of Technology</p>
-          <p class="p2-responsive">&#8594; Minoring in Web Design</p>
-          <p class="p2-responsive">&#8594; Distinction Average</p>
+          <p id="education-subtext" class="p2-responsive">2018 - 2021</p>
+          <p id="education-subtext" class="p2-responsive">Royal Melbourne Institute of Technology</p>
+          <p id="education-subtext" class="p2-responsive">&#8594; Minoring in Web Design</p>
+          <p id="education-subtext" class="p2-responsive">&#8594; Distinction Average</p>
         </b-col>
 
         <!-- Writeup -->
@@ -72,9 +72,8 @@
 
           <b-button
             target="_blank"
-            class="link-out mr-2 mt-1"
-            variant="danger"
-            href="https://au.linkedin.com/in/jse998"
+            class="link-out mr-2 mt-1 custom-btn"
+            href="https://au.linkedin.com/in/je-it"
           >
             LinkedIn Profile
           </b-button>
@@ -92,6 +91,7 @@ export default {};
 <style scoped>
 #writeup {
   text-align: justify;
+  color: white;
 }
 .mobile-profile{
   display: none;
@@ -101,9 +101,9 @@ export default {};
   text-align: center;
 }
 
-p2 {
+#education-subtext {
   font-family: "Titillium Web", sans-serif;
-  color: lightgray;
+  color: white;
   font-weight: 100;
   margin: 0;
 }

@@ -83,14 +83,20 @@ body {
 } */
 
 /*Fonts*/
+
+
 h1 {
     font-family: 'Titillium Web', sans-serif;
     color: white;
     letter-spacing: 1px;
 }
-h2, p, label{
+h2{
     font-family: 'Titillium Web', sans-serif;
     color: lightgray;
+}
+h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
 }
 
 .h1-responsive,
@@ -107,7 +113,36 @@ h2, p, label{
 }
 .p-responsive {
    font-size: calc(50% + 0.5vw + 0.5vh);
+   font-family: 'Titillium Web', sans-serif;
 }
 
+/* Overide some of the bootstrap button styling */
+.custom-btn{
+  background-color: rgba(0, 0, 0, 0.205) !important;
+  /* background-color:black !important; */
+  /* color: #35a7ff !important; */
+  color: white !important;
+  border-color: black !important;
+  border-radius: 5px !important;
+  border-width: 1px !important;
+  letter-spacing: 1px;
+  font-family: 'Titillium Web', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.custom-btn:hover {
+  cursor: pointer;
+  color:#35a7ff !important;
+  border-color: black !important;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.form-lbl {
+  color: white !important;
+  font-family: 'Titillium Web', sans-serif !important;
+}
 
 </style>

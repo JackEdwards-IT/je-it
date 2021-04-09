@@ -45,22 +45,19 @@
       <b-row>
         <div class="mx-auto mt-3"> 
           <b-button target="_blank"
-           class="link-out mr-2 "
-           variant="danger"
+           class="link-out mr-2 custom-btn"
            href="https://www.instagram.com/jacks_nature_pics/?hl=en">
           Instagram Photography
           </b-button>
   
           <b-button target="_blank"
-           class="link-out mr-2 "
-           variant="danger"
+           class="link-out mr-2 custom-btn"
            href="https://www.instagram.com/jack_edwards_it/?hl=en">
           Instagram IT
           </b-button>
 
           <b-button target="_blank"
-           class="link-out "
-           variant="danger"
+           class="link-out custom-btn"
            href="https://www.goodreads.com/user/show/86337535-jack">
           Goodreads Profile
           </b-button>
@@ -82,6 +79,7 @@ export default {
 
 .p-responsive{
   text-align: justify;
+  color: white;
 }
 .banner {
   box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.5);

@@ -14,6 +14,7 @@
           <b-form class="contact-form" @submit.prevent="sendEmail">
             <b-form-group
               id="input-group-1"
+              label-class="form-lbl"
               label="Email Address:"
               label-for="input-1"
             >
@@ -29,6 +30,7 @@
 
             <b-form-group
               id="input-group-2"
+              label-class="form-lbl"
               label="Your Name:"
               label-for="input-2"
             >
@@ -42,6 +44,7 @@
 
             <b-form-group
               id="input-group-3"
+              label-class="form-lbl"
               label="Please enter your message:"
               label-for="input-3"
             >
@@ -54,11 +57,11 @@
                 max-rows="7"
               ></b-form-textarea>
             </b-form-group>
-            >   
+           
 
             <!-- TODO remove hardcoding of submit state to reflect response from emailJS API  -->
 
-            <b-button :disabled="submitDisabled" @click="changeStates(true)" variant="success" type="submit" value="Send"
+            <b-button :disabled="submitDisabled" @click="changeStates(true)" class="custom-btn" type="submit" value="Send"
               >Send</b-button
             >
 
@@ -145,4 +148,5 @@ export default {
 p {
   margin-bottom: 0;
 }
+
 </style>

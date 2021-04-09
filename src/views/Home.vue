@@ -54,21 +54,6 @@ export default {
 </script>
 
 <style>
-/*Fonts*/
-h1 {
-    font-family: 'Titillium Web', sans-serif;
-    color: white;
-    letter-spacing: 1px;
-}
-h2{
-    font-family: 'Titillium Web', sans-serif;
-    color: lightgray;
-}
-h3{
-    font-family: 'Titillium Web', sans-serif;
-    color: lightgray;
-    font-weight: 100;
-}
 
 /*Individual lettering colours, using v-lettering*/
 
