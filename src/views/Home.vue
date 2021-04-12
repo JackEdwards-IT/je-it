@@ -15,7 +15,7 @@
          </b-row>
          <b-row>
            <b-col></b-col>
-            <b-col md="10"><h1 v-lettering class="secondLine h1-responsive">IT student graduating in 2021.</h1></b-col>
+            <b-col md="10"><h1><span class="it">IT </span>student graduating in 2021.</h1></b-col>
             <b-col></b-col>
           </b-row>
           <b-row class="form-group"></b-row>
@@ -109,6 +109,10 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
     margin-block-start: 0px;
     padding-inline-start: 0px;
   }
+}
+
+.it{
+  color:red;
 }
 
 </style>

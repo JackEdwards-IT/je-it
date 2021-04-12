@@ -43,6 +43,9 @@
       </b-row>
 
       <b-row>
+        <b-col cols="0" md="1"></b-col>
+        <b-col cols="12" md="10">
+
         <div class="mx-auto mt-3"> 
           <b-button target="_blank"
            class="link-out mr-2 mt-2 custom-btn"
@@ -62,7 +65,8 @@
           Goodreads Profile
           </b-button>
         </div>
-      
+        </b-col>
+      <b-col cols="0" md="1"></b-col>
       </b-row>
     </b-container>
   </div>

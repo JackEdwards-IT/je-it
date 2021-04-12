@@ -78,9 +78,6 @@ body {
 .fade-leave-active {
   opacity: 0
 }
-/* .App__footer {
-  color: white;
-} */
 
 /*Fonts*/
 
@@ -96,16 +93,6 @@ h2{
     color: white;
 }
 
-.h1-responsive {
-  /* font-size: calc(70% + 1vw + 1vh); */
-}
-.h2-responsive {
-  /* font-size: calc(50% + 0.7vw + 0.7vh); */
-}
-.menu-text {
-  /* font-size: calc(50% + 0.6vw + 0.6vh); */
-  padding-right: 4vw;
-}
 .p-responsive {
    /* font-size: calc(50% + 0.5vw + 0.5vh); */
    font-family: 'Titillium Web', sans-serif;
