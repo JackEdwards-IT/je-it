@@ -45,19 +45,19 @@
       <b-row>
         <div class="mx-auto mt-3"> 
           <b-button target="_blank"
-           class="link-out mr-2 custom-btn"
+           class="link-out mr-2 mt-2 custom-btn"
            href="https://www.instagram.com/jacks_nature_pics/?hl=en">
           Instagram Photography
           </b-button>
   
           <b-button target="_blank"
-           class="link-out mr-2 custom-btn"
+           class="link-out mr-2 mt-2 custom-btn"
            href="https://www.instagram.com/jack_edwards_it/?hl=en">
           Instagram IT
           </b-button>
 
           <b-button target="_blank"
-           class="link-out custom-btn"
+           class="link-out mt-2 custom-btn"
            href="https://www.goodreads.com/user/show/86337535-jack">
           Goodreads Profile
           </b-button>

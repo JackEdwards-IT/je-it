@@ -29,7 +29,6 @@
 </b-container>
 </template>
 
-
 <script>
 import { Slide } from 'vue-burger-menu'
 export default {
@@ -54,11 +53,16 @@ li {
   font-weight: 900;
   letter-spacing: 4px;
   color: #da4167;
-  font-size: calc(50% + 0.5vw + 0.5vh);
+  font-size: 20px;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+@media only screen and (max-width: 768px) {
+  li{
+    font-size: 15px;
+  }
 }
 
 li:hover,
@@ -104,34 +108,34 @@ a:active {
 // Styling for burger menu
 <style>
 .bm-burger-button {
-      position: fixed;
-      width: 36px;
-      height: 30px;
-      top: 10px;
+      position: fixed !important;
+      width: 36px !important;
+      height: 30px !important;
+      top: 10px !important;
       cursor: pointer;
       right: 10px !important;
     }
     .bm-burger-bars {
-      background-color: #da4167;
+      background-color: #da4167 !important;
     }
     .line-style {
-      position: absolute;
-      height: 20%;
-      left: 0;
-      right: 0;
+      position: absolute !important;
+      height: 20% !important;
+      left: 0 !important;
+      right: 0 !important;
     }
     .cross-style {
-      position: absolute;
-      top: 12px;
-      right: 2px;
-      cursor: pointer;
+      position: absolute !important;
+      top: 12px !important;
+      right: 2px !important;
+      cursor: pointer !important;
     }
     .bm-cross {
-      background: #da4167;
+      background: #da4167 !important;
     }
     .bm-cross-button {
-      height: 24px;
-      width: 24px;
+      height: 24px !important;
+      width: 24px !important;
     }
     .bm-menu {
       height: 100%; /* 100% Full-height */
@@ -150,9 +154,9 @@ a:active {
       background: rgba(0, 0, 0, 0.3);
     }
     .bm-item-list {
-      color: #b8b7ad;
-      margin-left: 5%;
-      font-size: 20px;
+      color: #b8b7ad !important;
+      margin-left: 5% !important;
+      font-size: 20px  !important;
     }
     .bm-item-list > * {
       display: flex;

@@ -9,14 +9,12 @@
 
       <b-row class="form-group"></b-row>
      <b-row>
-          <h2 class="p-responsive mx-auto">
+          <h3 class="mx-auto">
             Uni and personal projects I have undertaken.
-          </h2>
+          </h3>
      </b-row>
      <b-row class="form-group"></b-row>
        
-      
-
       <!-- Card 1  -->
 
       <b-card

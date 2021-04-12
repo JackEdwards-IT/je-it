@@ -95,6 +95,7 @@ export default {};
 }
 .mobile-profile{
   display: none;
+  color: white;
 }
 .h1-responsive,
 .h3-responsive {
@@ -114,7 +115,7 @@ p {
 .education-title {
   color: #35a7ff;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .md-profile {
     display: none;
   }

@@ -5,29 +5,29 @@
           <b-row class="form-group"></b-row>
          <b-row>
            <b-col></b-col>
-            <b-col cols="10"><h1>Hi,</h1></b-col>
+            <b-col md="10"><h1 class="h1-responsive">Hi,</h1></b-col>
             <b-col></b-col>
          </b-row>
          <b-row>
            <b-col></b-col>
-            <b-col cols="10"><h1 v-lettering class="firstLine">I'm Jack Edwards,</h1></b-col>
+            <b-col md="10"><h1 v-lettering class="firstLine h1-responsive">I'm Jack Edwards,</h1></b-col>
             <b-col></b-col>
          </b-row>
          <b-row>
            <b-col></b-col>
-            <b-col cols="10"><h1 v-lettering class="secondLine">IT student graduating in 2021.</h1></b-col>
+            <b-col md="10"><h1 v-lettering class="secondLine h1-responsive">IT student graduating in 2021.</h1></b-col>
             <b-col></b-col>
           </b-row>
           <b-row class="form-group"></b-row>
           <b-row>
             <b-col></b-col>
-           <b-col cols="10"> <h2>Developing skills in full stack web development, cloud platforms, Java programming and building IOT projects in my spare time.</h2></b-col>
+           <b-col md="10"> <h2 class="h2-responsive">Developing skills in full stack web development, cloud platforms, Java programming and building IOT projects in my spare time.</h2></b-col>
           <b-col></b-col>
           </b-row>
 
           <b-row>
             <b-col></b-col>
-           <b-col cols="10">
+           <b-col md="10">
              <ul id="navigation">
                 <router-link to="resume"><li class="menu-text">Qualifications</li></router-link>
                 <router-link to="portfolio"><li class="menu-text">Portfolio</li></router-link>
@@ -43,20 +43,14 @@
 </template>
 
 <script>
-// import Navbar from '@/components/Navbar.vue';
 
 export default {
   name: 'Home',
-  // components: { "navbar": Navbar}
 }
-
-
 </script>
 
 <style>
-
 /*Individual lettering colours, using v-lettering*/
-
  .firstLine .vl--i-5, .firstLine .vl--i-10{ 
     color: red;
 }
@@ -72,9 +66,8 @@ li {
     font-family: 'Titillium Web', sans-serif; 
     font-weight: 900;
     letter-spacing: 4px;
-  
+    font-size: 25px;
     color: #DA4167;
-    
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
@@ -99,6 +92,23 @@ li:hover,
 
 a, a:link, a:visited, a:focus, a:hover, a:active{
   text-decoration:none !important;
+}
+</style>
+
+<style scoped>
+  @media only screen and (max-width: 768px) {
+  #navigation{
+    padding-top: 10px;
+  }
+  li{
+    display: flex;
+    padding-right: 0px;
+  }
+  ul {
+    /* Overide user agent styles for menu padding */
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+  }
 }
 
 </style>

@@ -90,37 +90,32 @@ h1 {
     color: white;
     letter-spacing: 1px;
 }
-h2{
-    font-family: 'Titillium Web', sans-serif;
-    color: lightgray;
-}
+
 h2{
     font-family: 'Titillium Web', sans-serif;
     color: white;
 }
 
-.h1-responsive,
-.firstLine,
-.secondLine {
-  font-size: calc(70% + 1vw + 1vh);
+.h1-responsive {
+  /* font-size: calc(70% + 1vw + 1vh); */
 }
 .h2-responsive {
-  font-size: calc(50% + 0.7vw + 0.7vh);
+  /* font-size: calc(50% + 0.7vw + 0.7vh); */
 }
 .menu-text {
-  font-size: calc(50% + 0.6vw + 0.6vh);
+  /* font-size: calc(50% + 0.6vw + 0.6vh); */
   padding-right: 4vw;
 }
 .p-responsive {
-   font-size: calc(50% + 0.5vw + 0.5vh);
+   /* font-size: calc(50% + 0.5vw + 0.5vh); */
    font-family: 'Titillium Web', sans-serif;
 }
+
+
 
 /* Overide some of the bootstrap button styling */
 .custom-btn{
   background-color: rgba(0, 0, 0, 0.205) !important;
-  /* background-color:black !important; */
-  /* color: #35a7ff !important; */
   color: white !important;
   border-color: black !important;
   border-radius: 5px !important;
