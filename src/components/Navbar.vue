@@ -108,6 +108,7 @@ a:active {
 // Styling for burger menu
 <style>
 .bm-burger-button {
+      z-index: 999;
       position: fixed !important;
       width: 36px !important;
       height: 30px !important;

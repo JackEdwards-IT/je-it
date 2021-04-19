@@ -92,10 +92,14 @@ h2{
     font-family: 'Titillium Web', sans-serif;
     color: white;
 }
+h3{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
 
-.p-responsive {
-   /* font-size: calc(50% + 0.5vw + 0.5vh); */
+p {
    font-family: 'Titillium Web', sans-serif;
+   font-size: 18px;
 }
 
 

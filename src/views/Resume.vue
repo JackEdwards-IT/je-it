@@ -8,79 +8,77 @@
       </b-row>
 
       <b-row class="form-group"></b-row>
+      <!-- Writeup -->
       <b-row>
-        <!-- DP & Education Desktop View -->
-        <b-col cols="0" md="4" class="md-profile">
-          <img
-            src="../assets/dp-70-cropped.png"
-            class="img-fluid mb-2"
-            alt="Jack profile picture"
-          />
-          <h2 class="h2-responsive">Education</h2>
+      <b-col cols="0" md="1"></b-col>
+      <b-col cols="12" md="10">
+        <p id="writeup">
+          Interested in full stack web development with exposure to multiple
+          languages and platforms such as Java, C, Node.js, Vue.js, PgSql. See
+          the portfolio section for an overview of some of my projects and the
+          technologies I have used.
+        </p>
+        <b-row class="form-group"></b-row>
+        <p id="writeup">
+          I am ambitous and enjoy taking on new challenges and learning new
+          things. While I have a focus on web dev through my minor, I enjoy all
+          aspects of IT. I have recently started part time studies in graduate
+          certificate in Cloud Computing and Virtualisation.
+        </p>
+
+        <b-row class="form-group"></b-row>
+        <p class="p-responsive" id="writeup">
+          If you would like to see my full work history prior to IT studies see
+          my 
+          <b-link target="_blank" href="https://au.linkedin.com/in/je-it" class="card-link">LinkedIn Profile.</b-link>
+        </p>
+        <b-row class="form-group"></b-row>
+        <hr>
+      </b-col>
+      <b-col cols="0" md="1"></b-col>
+      </b-row>
+
+      <b-row>
+        <b-col cols="0" md="1"></b-col>
+        
+        <!-- RMIT -->
+        <b-col cols="7" md="6">
+        <h3>Education</h3>
           <p class="p-responsive education-title">
             Bachelor of Information Technolgy
           </p>
           <p id="education-subtext" class="p2-responsive">2018 - 2021</p>
-          <p id="education-subtext" class="p2-responsive">Royal Melbourne Institute of Technology</p>
-          <p id="education-subtext" class="p2-responsive">&#8594; Minoring in Web Design</p>
-          <p id="education-subtext" class="p2-responsive">&#8594; Distinction Average</p>
+          <p id="education-subtext" class="p2-responsive">
+            Royal Melbourne Institute of Technology
+          </p>
+          <!-- <p id="education-subtext" class="p2-responsive">&#8594; Minoring in Web Design</p>
+          <p id="education-subtext" class="p2-responsive">&#8594; Distinction Average</p> -->
+          <!-- CSU -->
+          <p class="p-responsive education-title mt-2">
+            Graduate Certificate in Cloud Computing and Virtualisation
+          </p>
+          <p id="education-subtext" class="p2-responsive">2021 - Ongoing</p>
+          <p id="education-subtext" class="p2-responsive">
+            Charles Sturt University
+          </p>
+          <!-- <p id="education-subtext" class="p2-responsive">&#8594; </p>
+          <p id="education-subtext" class="p2-responsive">&#8594; Distinction Average</p> -->
+        </b-col>
+        <b-col cols="0" md="1"></b-col>
+
+
+
+        <!-- DP & Education Desktop View -->
+        <b-col cols="5" md="4">
+          <img
+            src="../assets/dp-70.png"
+            class="img-fluid mb-2"
+            alt="Jack profile picture"
+          />
         </b-col>
 
-        <!-- Writeup -->
-
-        <b-col cols="12" md="8">
-          <p class="p-responsive" id="writeup">
-            Interested in full stack web development with exposure to
-            languages and platforms including Java, C, PHP, Node.js, Vue.js,
-            PgSql & Wordpress. See the portfolio section for an overview of some
-            of my projects and technologies I have used.
-          </p>
-          <b-row class="form-group"></b-row>
-          <p class="p-responsive" id="writeup">
-            I am ambitous and enjoy taking on new challenges, such as learning
-            new languages and frameworks. I am not set on doing just one job or career path, I am 
-            open to all aspects of IT and enjoy the flexibility that a well rounded skill set can provide.
-          </p> 
-
-          <b-row class="form-group"></b-row>
-          <p class="p-responsive" id="writeup">
-            If you would like to see my full work history prior to IT studies
-            see my LinkedIn profile.
-          </p>
-          <b-row class="form-group"></b-row>
-
-          <!-- DP & Education Mobile View -->
-          <b-row class="mobile-profile">
-          <b-col cols="5">
-            <img
-              src="../assets/dp-70-cropped.png"
-              class="img-fluid mb-2"
-              alt="Jack profile picture"
-            />
-          </b-col>
-          <b-col cols="7">
-            <h2 class="h2-responsive">Education</h2>
-            <p class="education-title">
-              Bachelor of Information Technolgy
-            </p>
-            <p>2018 - 2021</p>
-            <p>Royal Melbourne Institute of Technology</p>
-            <p>&#8594; Minoring in Web Design</p>
-            <p>&#8594; Distinction Average</p>
-          </b-col>
-          </b-row>
-
-          <b-button
-            target="_blank"
-            class="link-out mr-2 mt-1 custom-btn"
-            href="https://au.linkedin.com/in/je-it"
-          >
-            LinkedIn Profile
-          </b-button>
-        </b-col>
       </b-row>
-      <b-row> </b-row>
-    </b-container>
+      </b-container>
   </div>
 </template>
 
@@ -93,7 +91,7 @@ export default {};
   text-align: justify;
   color: white;
 }
-.mobile-profile{
+.mobile-profile {
   display: none;
   color: white;
 }
@@ -109,6 +107,10 @@ export default {};
   margin: 0;
 }
 
+hr {
+  height: 1px !important;
+  background-color: rgba(161, 161, 161, 0.514) !important;
+}
 p {
   margin-bottom: 0;
 }
@@ -120,7 +122,7 @@ p {
     display: none;
   }
   .mobile-profile {
-    display:inline-flex;
+    display: inline-flex;
   }
 }
 </style>

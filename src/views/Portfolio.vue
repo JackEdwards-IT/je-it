@@ -9,9 +9,9 @@
 
       <b-row class="form-group"></b-row>
      <b-row>
-          <h3 class="mx-auto">
+          <p class="mx-auto">
             Uni and personal projects I have undertaken.
-          </h3>
+          </p>
      </b-row>
      <b-row class="form-group"></b-row>
        
@@ -53,15 +53,15 @@
               ></b-img>
 
               <b-card-text>
-                This is a past uni project that was part of my web design minor.
+                This is a project that was part of my web design minor.
                 The project involved creating a WordPress store that utilised
                 Woocommerce. We were tasked with creating a custom theme for the
                 site as well as realistic plugin that a shop owner could
                 utilise.
               </b-card-text>
-              <b-link href="#" class="card-link">Github</b-link>
-              <b-link href="#" class="card-link">Live Demo</b-link>
-              <b-link href="#" class="card-link">PDF Overview</b-link>
+              <b-link target="_blank" href="https://github.com/JackEdwards-IT/wordpress-petstore" class="card-link">Github</b-link>
+              <b-link target="_blank" href="http://pet-shop-demo.onlinewebshop.net/" class="card-link">Live Demo</b-link>
+              <b-link target="_blank" href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/wordpress-petstore/raw/main/Project-Overview.pdf" class="card-link">PDF Overview</b-link>
             </b-card-body>
           </b-col>
         </b-row>
@@ -79,7 +79,7 @@
         <b-row no-gutters>
           <b-col md="5">
             <b-card-img
-              :src="require('../assets/placeholder.jpeg')"
+              :src="require('../assets/c-game.png')"
               alt="Image of wordpress site"
               class="rounded-0"
             ></b-card-img>
@@ -94,15 +94,13 @@
                
 
               <b-card-text>
-                This project is a scrabble like game programmed in C (C99). The
-                assesment criteria for this project focused on proper memory
-                managment and good programming practices as well as file
-                handling with wordlists and dictionary be passed into the game
-                by the user on startup.
+                This project is a scrabble like game programmed in C for a Software development subject. The
+                assesment criteria for this project focused on memory
+                managment, dynamic data structures, file handling and adhering to the C99 ISO language features.
               </b-card-text>
-              <b-link href="#" class="card-link">Github</b-link>
-              <b-link href="#" class="card-link">Live Demo</b-link>
-              <b-link href="#" class="card-link">PDF Overview</b-link>
+               <b-link target="_blank" href="https://github.com/JackEdwards-IT/c-scrabble" class="card-link">Github</b-link>
+              <b-link target="_blank" href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/c-scrabble/raw/main/Project-Overview.pdf" class="card-link">PDF Overview</b-link>
+              <!-- <b-link target="_blank" href="#" class="card-link">PDF Overview</b-link> -->
             </b-card-body>
           </b-col>
         </b-row>
@@ -148,9 +146,8 @@
                 A simple static portfolio site (the one you are using now). This
                 was my first project using Vue.js and Bootstrap.
               </b-card-text>
-              <b-link href="#" class="card-link">Github</b-link>
-              <b-link href="#" class="card-link">Live Demo</b-link>
-              <b-link href="#" class="card-link">PDF Overview</b-link>
+              <b-link target="_blank" href="https://github.com/JackEdwards-IT/je-it" class="card-link">Github</b-link>
+              <!-- <b-link href="#" class="card-link">PDF Overview</b-link> -->
             </b-card-body>
           </b-col>
         </b-row>
@@ -191,17 +188,17 @@
               ></b-img> 
           
               <b-card-text>
-                Work In Progress
-                <br><br>
+                <span style="font-size:20px;color:yellow;">Work In Progress</span>
+                <br>
                 For my capstone uni project I created a web crawler in Node.js
                 as part of a small team. My job was to develop the back-end for
                 the crawler (REST API, Database and Crawler). I am currently 
                 in the process of creating the frontend for the application 
                 in Vue.js to replace the original Angular frontend created by another student.
               </b-card-text>
-              <b-link href="#" class="card-link">Github</b-link>
-              <b-link href="#" class="card-link">Live Demo</b-link>
-              <b-link href="#" class="card-link">PDF Overview</b-link>
+              <!-- <b-link target="_blank" href="#" class="card-link">Github</b-link>
+              <b-link target="_blank" href="#" class="card-link">Live Demo</b-link>
+              <b-link target="_blank" href="#" class="card-link">PDF Overview</b-link> -->
             </b-card-body>
           </b-col>
         </b-row>

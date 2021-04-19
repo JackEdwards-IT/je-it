@@ -10,12 +10,12 @@
          </b-row>
          <b-row>
            <b-col></b-col>
-            <b-col md="10"><h1 v-lettering class="firstLine h1-responsive">I'm Jack Edwards,</h1></b-col>
+            <b-col md="10"><h1>I'm <span id="red-text">J</span>ack <span id="red-text">E</span>dwards,</h1></b-col>
             <b-col></b-col>
          </b-row>
          <b-row>
            <b-col></b-col>
-            <b-col md="10"><h1><span class="it">IT </span>student graduating in 2021.</h1></b-col>
+            <b-col md="10"><h1><span id="red-text">IT </span>student graduating in 2021.</h1></b-col>
             <b-col></b-col>
           </b-row>
           <b-row class="form-group"></b-row>
@@ -50,13 +50,6 @@ export default {
 </script>
 
 <style>
-/*Individual lettering colours, using v-lettering*/
- .firstLine .vl--i-5, .firstLine .vl--i-10{ 
-    color: red;
-}
- .secondLine .vl--i-1, .secondLine .vl--i-2{ 
-    color: red;
-}
 
 li {
     display: inline;
@@ -111,7 +104,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
   }
 }
 
-.it{
+#red-text{
   color:red;
 }
 
