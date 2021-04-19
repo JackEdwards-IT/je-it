@@ -8,36 +8,8 @@
       </b-row>
 
       <b-row class="form-group"></b-row>
-      <!-- Writeup -->
-      <b-row>
-      <b-col cols="0" md="1"></b-col>
-      <b-col cols="12" md="10">
-        <p id="writeup">
-          Interested in full stack web development with exposure to multiple
-          languages and platforms such as Java, C, Node.js, Vue.js, PgSql. See
-          the portfolio section for an overview of some of my projects and the
-          technologies I have used.
-        </p>
-        <b-row class="form-group"></b-row>
-        <p id="writeup">
-          I am ambitous and enjoy taking on new challenges and learning new
-          things. While I have a focus on web dev through my minor, I enjoy all
-          aspects of IT. I have recently started part time studies in graduate
-          certificate in Cloud Computing and Virtualisation.
-        </p>
 
-        <b-row class="form-group"></b-row>
-        <p class="p-responsive" id="writeup">
-          If you would like to see my full work history prior to IT studies see
-          my 
-          <b-link target="_blank" href="https://au.linkedin.com/in/je-it" class="card-link">LinkedIn Profile.</b-link>
-        </p>
-        <b-row class="form-group"></b-row>
-        <hr>
-      </b-col>
-      <b-col cols="0" md="1"></b-col>
-      </b-row>
-
+      <!-- Education -->
       <b-row>
         <b-col cols="0" md="1"></b-col>
         
@@ -66,9 +38,7 @@
         </b-col>
         <b-col cols="0" md="1"></b-col>
 
-
-
-        <!-- DP & Education Desktop View -->
+        <!-- DP -->
         <b-col cols="5" md="4">
           <img
             src="../assets/dp-70.png"
@@ -76,8 +46,38 @@
             alt="Jack profile picture"
           />
         </b-col>
-
       </b-row>
+
+      <!-- Writeup -->
+      <b-row>
+      <b-col cols="0" md="1"></b-col>
+      <b-col cols="12" md="10"><hr>
+        <p id="writeup">
+          Interested in full stack web development with exposure to multiple
+          languages and platforms such as Java, C, Node.js, Vue.js, PgSql. See
+          the portfolio section for an overview of some of my projects and the
+          technologies I have used.
+        </p>
+        <b-row class="form-group"></b-row>
+        <p id="writeup">
+          I am ambitous and enjoy taking on new challenges and learning new
+          things. While I have a focus on web dev through my minor, I enjoy all
+          aspects of IT. I have recently started part time studies in graduate
+          certificate in Cloud Computing and Virtualisation.
+        </p>
+
+        <b-row class="form-group"></b-row>
+        <p class="p-responsive" id="writeup">
+          If you would like to see my full work history prior to IT studies see
+          my 
+          <b-link target="_blank" href="https://au.linkedin.com/in/je-it" class="card-link">LinkedIn Profile.</b-link>
+        </p>
+        <b-row class="form-group"></b-row>
+        <!-- <hr> -->
+      </b-col>
+      <b-col cols="0" md="1"></b-col>
+      </b-row>
+
       </b-container>
   </div>
 </template>
