@@ -2,11 +2,11 @@
 
 This site will serve as my online portfolio. See Trello board for an outline of progress and planned features/projects: https://trello.com/b/EPRlTF5B
 
-This is my first foray into a using a frontend framework (specifically Vue.js).
+This is my first project utilising a frontend framework (specifically Vue.js).
 
 Being a simple static site it has been a good intro to Vue and Bootstrap.
 
-Please note the other Github account contributing early on is my uni account that I will be phasing out as I near completeion of my degree.
+Please note the other Github account contributing early on is my uni account that I will be phasing out as I near completion of my degree.
 
 
 ## DEV: Project Setup
