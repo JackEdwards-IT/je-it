@@ -8,13 +8,11 @@
       </b-row>
 
       <b-row class="form-group"></b-row>
-     <b-row>
-          <p class="mx-auto">
-            Uni and personal projects I have undertaken.
-          </p>
-     </b-row>
-     <b-row class="form-group"></b-row>
-       
+      <b-row>
+        <p class="mx-auto">Uni and personal projects I have undertaken.</p>
+      </b-row>
+      <b-row class="form-group"></b-row>
+
       <!-- Card 1  -->
 
       <b-card
@@ -34,7 +32,6 @@
 
           <b-col md="7">
             <b-card-body title="WordPress Store">
-        
               <!-- Shield.io badges -->
               <b-img
                 src="https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white&style=plastic"
@@ -53,15 +50,30 @@
               ></b-img>
 
               <b-card-text>
-                This is a project that was part of my web design minor.
-                The project involved creating a WordPress store that utilised
-                Woocommerce. We were tasked with creating a custom theme for the
-                site as well as realistic plugin that a shop owner could
+                This is a project that was part of my web design minor. The
+                project involved creating a WordPress store that utilised
+                WooCommerce and I was tasked with creating a custom theme for
+                the site as well as realistic plugin that a shop owner could
                 utilise.
               </b-card-text>
-              <b-link target="_blank" href="https://github.com/JackEdwards-IT/wordpress-petstore" class="card-link">Github</b-link>
-              <b-link target="_blank" href="http://pet-shop-demo.onlinewebshop.net/" class="card-link">Live Demo</b-link>
-              <b-link target="_blank" href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/wordpress-petstore/raw/main/Project-Overview.pdf" class="card-link">PDF Overview</b-link>
+              <b-link
+                target="_blank"
+                href="https://github.com/JackEdwards-IT/wordpress-petstore"
+                class="card-link"
+                >Github</b-link
+              >
+              <b-link
+                target="_blank"
+                href="http://pet-shop-demo.onlinewebshop.net/"
+                class="card-link"
+                >Live Demo</b-link
+              >
+              <b-link
+                target="_blank"
+                href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/wordpress-petstore/raw/main/Project-Overview.pdf"
+                class="card-link"
+                >PDF Overview</b-link
+              >
             </b-card-body>
           </b-col>
         </b-row>
@@ -87,19 +99,29 @@
           <b-col md="7">
             <b-card-body title="Scrabble Game in C">
               <b-img
-                src="https://img.shields.io/badge/-C99-a8b9cc?logo=c&logoColor=white&style=plastic"
+                src="https://img.shields.io/badge/-ANSI C-a8b9cc?logo=c&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
               ></b-img>
-               
 
               <b-card-text>
-                This project is a scrabble like game programmed in C for a Software development subject. The
-                assesment criteria for this project focused on memory
-                managment, dynamic data structures, file handling and adhering to the C99 ISO language features.
+                This project is a scrabble like game programmed in C for a
+                Software development subject. The assessment criteria for this
+                project focused on memory management, dynamic data structures,
+                file handling and adhering to the ANSI C language features.
               </b-card-text>
-               <b-link target="_blank" href="https://github.com/JackEdwards-IT/c-scrabble" class="card-link">Github</b-link>
-              <b-link target="_blank" href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/c-scrabble/raw/main/Project-Overview.pdf" class="card-link">PDF Overview</b-link>
+              <b-link
+                target="_blank"
+                href="https://github.com/JackEdwards-IT/c-scrabble"
+                class="card-link"
+                >Github</b-link
+              >
+              <b-link
+                target="_blank"
+                href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/c-scrabble/raw/main/Project-Overview.pdf"
+                class="card-link"
+                >PDF Overview</b-link
+              >
               <!-- <b-link target="_blank" href="#" class="card-link">PDF Overview</b-link> -->
             </b-card-body>
           </b-col>
@@ -124,8 +146,7 @@
             ></b-card-img>
           </b-col>
           <b-col md="7">
-              <b-card-body title="Portfolio Website">
-               
+            <b-card-body title="Portfolio Website">
               <b-img
                 src="https://img.shields.io/badge/-Vue.js-4fc08d?logo=vue.js&logoColor=white&style=plastic"
                 height="23px"
@@ -146,7 +167,12 @@
                 A simple static portfolio site (the one you are using now). This
                 was my first project using Vue.js and Bootstrap.
               </b-card-text>
-              <b-link target="_blank" href="https://github.com/JackEdwards-IT/je-it" class="card-link">Github</b-link>
+              <b-link
+                target="_blank"
+                href="https://github.com/JackEdwards-IT/je-it"
+                class="card-link"
+                >Github</b-link
+              >
               <!-- <b-link href="#" class="card-link">PDF Overview</b-link> -->
             </b-card-body>
           </b-col>
@@ -174,31 +200,44 @@
               <b-img
                 src="https://img.shields.io/badge/-Vue.js-4fc08d?logo=vue.js&logoColor=white&style=plastic"
                 height="23px"
-                class="mr-1 "
+                class="mr-1"
               ></b-img>
               <b-img
                 src="https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=plastic"
                 height="23px"
-                class="mr-1 "
+                class="mr-1"
               ></b-img>
               <b-img
                 src="https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white&style=plastic"
                 height="23px"
-                class="mr-1 "
-              ></b-img> 
-          
+                class="mr-1"
+              ></b-img>
+
               <b-card-text>
-                <span style="font-size:20px;color:yellow;">Work In Progress</span>
-                <br>
+                <span style="font-size: 20px; color: yellow"
+                  >Work In Progress</span
+                >
+                <br />
                 For my capstone uni project I created a web crawler in Node.js
                 as part of a small team. My job was to develop the back-end for
-                the crawler (REST API, Database and Crawler). I am currently 
-                in the process of creating the frontend for the application 
-                in Vue.js to replace the original Angular frontend created by another student.
+                the crawler (REST API, Database and Crawler). I am currently in
+                the process of creating the frontend for the application in
+                Vue.js to replace the original Angular frontend created by
+                another student.
               </b-card-text>
-              <!-- <b-link target="_blank" href="#" class="card-link">Github</b-link>
-              <b-link target="_blank" href="#" class="card-link">Live Demo</b-link>
-              <b-link target="_blank" href="#" class="card-link">PDF Overview</b-link> -->
+              <b-link
+                target="_blank"
+                href="https://github.com/JackEdwards-IT/web-crawler"
+                class="card-link"
+                >Github</b-link
+              >
+              <b-link
+                target="_blank"
+                href="https://trello.com/b/Rwrt0Uhr"
+                class="card-link"
+                >Trello</b-link
+              >
+              <!-- <b-link target="_blank" href="#" class="card-link">PDF Overview</b-link> -->
             </b-card-body>
           </b-col>
         </b-row>
@@ -213,13 +252,13 @@ export default {};
 
 <style scoped>
 /* Card titles */
-h3{
-  font-family: 'Titillium Web', sans-serif;
+h3 {
+  font-family: "Titillium Web", sans-serif;
   color: white;
 }
 /* Card text */
-p{
-  font-family: 'Titillium Web', sans-serif;
+p {
+  font-family: "Titillium Web", sans-serif;
   color: white;
   letter-spacing: 1px;
 }
@@ -229,10 +268,8 @@ a {
   text-decoration: underline !important;
 }
 /* Card custom border/bg*/
-.card{
+.card {
   background-color: #1d1d1d !important;
   border-color: rgba(161, 161, 161, 0.514) !important;
-  
-
 }
 </style>

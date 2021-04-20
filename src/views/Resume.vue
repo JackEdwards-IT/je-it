@@ -12,12 +12,12 @@
       <!-- Education -->
       <b-row>
         <b-col cols="0" md="1"></b-col>
-        
+
         <!-- RMIT -->
         <b-col cols="7" md="6">
-        <h3>Education</h3>
+          <h3>Education</h3>
           <p class="p-responsive education-title">
-            Bachelor of Information Technolgy
+            Bachelor of Information Technology
           </p>
           <p id="education-subtext" class="p2-responsive">2018 - 2021</p>
           <p id="education-subtext" class="p2-responsive">
@@ -50,35 +50,41 @@
 
       <!-- Writeup -->
       <b-row>
-      <b-col cols="0" md="1"></b-col>
-      <b-col cols="12" md="10"><hr>
-        <p id="writeup">
-          Interested in full stack web development with exposure to multiple
-          languages and platforms such as Java, C, Node.js, Vue.js, PgSql. See
-          the portfolio section for an overview of some of my projects and the
-          technologies I have used.
-        </p>
-        <b-row class="form-group"></b-row>
-        <p id="writeup">
-          I am ambitous and enjoy taking on new challenges and learning new
-          things. While I have a focus on web dev through my minor, I enjoy all
-          aspects of IT. I have recently started part time studies in graduate
-          certificate in Cloud Computing and Virtualisation.
-        </p>
+        <b-col cols="0" md="1"></b-col>
+        <b-col cols="12" md="10"
+          ><hr />
+          <p id="writeup">
+            Interested in full stack web development as well as all aspects of
+            IT. With exposure to multiple languages and platforms such as Java,
+            C, Node.js, Vue.js, PgSql. See the portfolio section for an overview
+            of some of my projects and the technologies I have used.
+          </p>
+          <b-row class="form-group"></b-row>
+          <p id="writeup">
+            I am ambitious and enjoy taking on new challenges and learning
+            opportunities. While I have a focus on web dev through my minor, I
+            am open to all areas of the industry. I have recently started part
+            time studies in a Graduate Certificate in Cloud Computing and
+            Virtualisation.
+          </p>
 
-        <b-row class="form-group"></b-row>
-        <p class="p-responsive" id="writeup">
-          If you would like to see my full work history prior to IT studies see
-          my 
-          <b-link target="_blank" href="https://au.linkedin.com/in/je-it" class="card-link">LinkedIn Profile.</b-link>
-        </p>
-        <b-row class="form-group"></b-row>
-        <!-- <hr> -->
-      </b-col>
-      <b-col cols="0" md="1"></b-col>
+          <b-row class="form-group"></b-row>
+          <p class="p-responsive" id="writeup">
+            If you would like to see my full work history prior to IT studies
+            see my
+            <b-link
+              target="_blank"
+              href="https://au.linkedin.com/in/je-it"
+              class="card-link"
+              >LinkedIn Profile.</b-link
+            >
+          </p>
+          <b-row class="form-group"></b-row>
+          <!-- <hr> -->
+        </b-col>
+        <b-col cols="0" md="1"></b-col>
       </b-row>
-
-      </b-container>
+    </b-container>
   </div>
 </template>
 
