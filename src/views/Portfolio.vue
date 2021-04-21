@@ -97,7 +97,7 @@
 
               <b-card-text>
                 This WordPress Store was developed within my web-design minor.
-                The project involved utilising WooCommerce, to create a custom
+                The project involved utilising WooCommerce and creating a custom
                 theme for the site as well as a realistic plugin that a shop
                 owner could utilise.
               </b-card-text>
@@ -215,7 +215,7 @@
                 >
                 <br />
                 For my capstone uni project I created a web crawler in Node.js
-                as part of a small team. My job was to develop the back-end for
+                as part of a small team. My job was to develop the backend for
                 the crawler (REST API, Database and Crawler). I am currently in
                 the process of creating the frontend for the application in
                 Vue.js to replace the original Angular frontend created by
