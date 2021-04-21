@@ -47,7 +47,7 @@
               >
               <b-link
                 target="_blank"
-                href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/c-scrabble/raw/main/Project-Overview.pdf"
+                href="https://github.com/JackEdwards-IT/c-scrabble/raw/main/Project-Overview.pdf"
                 class="card-link"
                 >PDF Overview</b-link
               >
@@ -115,7 +115,7 @@
               >
               <b-link
                 target="_blank"
-                href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/wordpress-petstore/raw/main/Project-Overview.pdf"
+                href="https://github.com/JackEdwards-IT/wordpress-petstore/raw/main/Project-Overview.pdf"
                 class="card-link"
                 >PDF Overview</b-link
               >
