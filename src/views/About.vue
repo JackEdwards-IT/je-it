@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <div class="mx-auto">
-        <h1>About</h1>
+          <h1>About</h1>
         </div>
       </b-row>
 
@@ -13,23 +13,29 @@
         <b-col cols="0" md="1"></b-col>
         <b-col cols="12" md="10">
           <p class="p-responsive">
-            I grew up on the South Coast of NSW near Bega. After I
-            finished high school I moved to Wollongong (my friends were off to
-            university there) and worked in various jobs for a few years. I have
-            always had passion for IT and with some encouragement I finally
-            took up online study as a mature age student while I was working</p>
-            <p class="p-responsive mt-2">
-            I have just recently moved back to the South Coast and enjoy the
-            peace and quite the country has to offer. In my spare time I enjoy
-            gardening, keeping fit, photography, reading and working on various mechanical and IT projects.</p>
-
+            I grew up on a small hobby farm near Bega on the Far South Coast of
+            NSW. Eager to explore bigger cities, I moved to Wollongong and
+            worked in the retail sector after highschool.</p>
+            <p class="p-responsive mt-3">
+            I have always had a
+            passion for IT, and after some encouragement, I enrolled in an
+            online Bachelor of Information Technology with the Royal Melbourne
+            Institute of Technology as a mature aged student.</p>
+            <p class="p-responsive mt-3">
+            Returning to the
+            country, I have recently moved back to the Bega Valley area, and am
+            enjoying the ease of finding a parking space when I go grocery
+            shopping. In my spare time I enjoy gardening, fitness, photography,
+            reading, and creating an endless cycle of new mechanical and IT
+            projects. 
+          </p>
+          
         </b-col>
         <b-col cols="0" md="1"></b-col>
       </b-row>
       <!-- Spaceing -->
       <b-row class="form-group"></b-row>
 
-  
       <b-row>
         <b-col cols="0" md="1"></b-col>
         <b-col cols="12" md="10">
@@ -45,43 +51,45 @@
       <b-row>
         <b-col cols="0" md="1"></b-col>
         <b-col cols="12" md="10">
+          <div class="mx-auto mt-3">
+            <b-button
+              target="_blank"
+              class="link-out mr-2 mt-2 custom-btn"
+              href="https://www.instagram.com/jacks_nature_pics/?hl=en"
+            >
+              Instagram Photography
+            </b-button>
 
-        <div class="mx-auto mt-3"> 
-          <b-button target="_blank"
-           class="link-out mr-2 mt-2 custom-btn"
-           href="https://www.instagram.com/jacks_nature_pics/?hl=en">
-          Instagram Photography
-          </b-button>
-  
-          <b-button target="_blank"
-           class="link-out mr-2 mt-2 custom-btn"
-           href="https://www.instagram.com/jack_edwards_it/?hl=en">
-          Instagram IT
-          </b-button>
+            <b-button
+              target="_blank"
+              class="link-out mr-2 mt-2 custom-btn"
+              href="https://www.instagram.com/jack_edwards_it/?hl=en"
+            >
+              Instagram IT
+            </b-button>
 
-          <b-button target="_blank"
-           class="link-out mt-2 custom-btn"
-           href="https://www.goodreads.com/user/show/86337535-jack">
-          Goodreads Profile
-          </b-button>
-        </div>
+            <b-button
+              target="_blank"
+              class="link-out mt-2 custom-btn"
+              href="https://www.goodreads.com/user/show/86337535-jack"
+            >
+              Goodreads Profile
+            </b-button>
+          </div>
         </b-col>
-      <b-col cols="0" md="1"></b-col>
+        <b-col cols="0" md="1"></b-col>
       </b-row>
     </b-container>
   </div>
 </template>
 
 <script>
-
-export default {
-};
+export default {};
 </script>
 
 
 <style scoped>
-
-.p-responsive{
+.p-responsive {
   text-align: justify;
   color: white;
 }

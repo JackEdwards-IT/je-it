@@ -29,7 +29,7 @@
           <p class="p-responsive education-title mt-2">
             Graduate Certificate in Cloud Computing and Virtualisation
           </p>
-          <p id="education-subtext" class="p2-responsive">2021 - Ongoing</p>
+          <p id="education-subtext" class="p2-responsive">2021 - Anticipated completion 2022</p>
           <p id="education-subtext" class="p2-responsive">
             Charles Sturt University
           </p>
@@ -54,24 +54,26 @@
         <b-col cols="12" md="10"
           ><hr />
           <p id="writeup">
-            Interested in full stack web development as well as all aspects of
-            IT. With exposure to multiple languages and platforms such as Java,
-            C, Node.js, Vue.js, PgSql. See the portfolio section for an overview
-            of some of my projects and the technologies I have used.
+            I am interested in full stack web development, cloud computing,
+            user-centred design and accessibility. I have experience with
+            multiple languages and platforms, including Java, C, Node.js,
+            Vue.js, PgSql; the implementation of these technologies can be
+            viewed within the portfolio section of this site.
           </p>
-          <b-row class="form-group"></b-row>
-          <p id="writeup">
-            I am ambitious and enjoy taking on new challenges and learning
-            opportunities. While I have a focus on web dev through my minor, I
-            am open to all areas of the industry. I have recently started part
-            time studies in a Graduate Certificate in Cloud Computing and
-            Virtualisation.
+          <p id="writeup" class="mt-3">
+            Personally, I am eager and motivated to take on new challenges and
+            refine and apply the technical skills I have learned within my
+            degree. Although I have a minor in web development, I am flexible in
+            taking on new roles and opportunities.
+          </p>
+          <p id="writeup" class="mt-3">
+            I have recently begun a Graduate Certificate in Cloud Computing and
+            Virtualisation to further explore my personal and professional
+            interest in this area.
           </p>
 
-          <b-row class="form-group"></b-row>
-          <p class="p-responsive" id="writeup">
-            If you would like to see my full work history prior to IT studies
-            see my
+          <p class="p-responsive mt-3" id="writeup">
+            To view my full work history prior to university see my 
             <b-link
               target="_blank"
               href="https://au.linkedin.com/in/je-it"

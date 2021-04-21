@@ -13,7 +13,57 @@
       </b-row>
       <b-row class="form-group"></b-row>
 
-      <!-- Card 1  -->
+      <!-- Card Scrabble game in C -->
+
+      <b-card
+        no-body
+        class="overflow-hidden"
+        style="max-width 400px;"
+        text-variant="white"
+      >
+        <b-row no-gutters>
+          <b-col md="5">
+            <b-card-img
+              :src="require('../assets/c-game.png')"
+              alt="Image of C code"
+              class="rounded-0"
+            ></b-card-img>
+          </b-col>
+          <b-col md="7">
+            <b-card-body title="Scrabble Game in C">
+              <b-img
+                src="https://img.shields.io/badge/-ANSI C-a8b9cc?logo=c&logoColor=white&style=plastic"
+                height="23px"
+                class="mr-1"
+              ></b-img>
+
+              <b-card-text>
+                This word game was developed within a C Programming software
+                development subject. The assessment criteria for this project
+                focused on memory management, dynamic data structures, file
+                handling and adhering to the ANSI C language features.
+              </b-card-text>
+              <b-link
+                target="_blank"
+                href="https://github.com/JackEdwards-IT/c-scrabble"
+                class="card-link"
+                >Github</b-link
+              >
+              <b-link
+                target="_blank"
+                href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/c-scrabble/raw/main/Project-Overview.pdf"
+                class="card-link"
+                >PDF Overview</b-link
+              >
+              <!-- <b-link target="_blank" href="#" class="card-link">PDF Overview</b-link> -->
+            </b-card-body>
+          </b-col>
+        </b-row>
+      </b-card>
+
+      <b-row class="form-group"></b-row>
+
+      <!-- Card Wordpress store  -->
 
       <b-card
         no-body
@@ -25,7 +75,7 @@
           <b-col md="5">
             <b-card-img
               :src="require('../assets/cat-site.png')"
-              alt="Image of wordpress site"
+              alt="Image of wordpress store page"
               class="rounded-0"
             ></b-card-img>
           </b-col>
@@ -50,11 +100,10 @@
               ></b-img>
 
               <b-card-text>
-                This is a project that was part of my web design minor. The
-                project involved creating a WordPress store that utilised
-                WooCommerce and I was tasked with creating a custom theme for
-                the site as well as realistic plugin that a shop owner could
-                utilise.
+                This WordPress Store was developed within my web-design minor.
+                The project involved utilising WooCommerce, to create a custom
+                theme for the site as well as a realistic plugin that a shop
+                owner could utilise.
               </b-card-text>
               <b-link
                 target="_blank"
@@ -80,56 +129,7 @@
       </b-card>
 
       <b-row class="form-group"></b-row>
-      <!-- Card 2  -->
-
-      <b-card
-        no-body
-        class="overflow-hidden"
-        style="max-width 400px;"
-        text-variant="white"
-      >
-        <b-row no-gutters>
-          <b-col md="5">
-            <b-card-img
-              :src="require('../assets/c-game.png')"
-              alt="Image of wordpress site"
-              class="rounded-0"
-            ></b-card-img>
-          </b-col>
-          <b-col md="7">
-            <b-card-body title="Scrabble Game in C">
-              <b-img
-                src="https://img.shields.io/badge/-ANSI C-a8b9cc?logo=c&logoColor=white&style=plastic"
-                height="23px"
-                class="mr-1"
-              ></b-img>
-
-              <b-card-text>
-                This project is a scrabble like game programmed in C for a
-                Software development subject. The assessment criteria for this
-                project focused on memory management, dynamic data structures,
-                file handling and adhering to the ANSI C language features.
-              </b-card-text>
-              <b-link
-                target="_blank"
-                href="https://github.com/JackEdwards-IT/c-scrabble"
-                class="card-link"
-                >Github</b-link
-              >
-              <b-link
-                target="_blank"
-                href="https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/c-scrabble/raw/main/Project-Overview.pdf"
-                class="card-link"
-                >PDF Overview</b-link
-              >
-              <!-- <b-link target="_blank" href="#" class="card-link">PDF Overview</b-link> -->
-            </b-card-body>
-          </b-col>
-        </b-row>
-      </b-card>
-
-      <b-row class="form-group"></b-row>
-      <!-- Card 3  -->
+      <!-- Card Portfolio website -->
 
       <b-card
         no-body
@@ -141,7 +141,7 @@
           <b-col md="5">
             <b-card-img
               :src="require('../assets/portfolio-site.png')"
-              alt="Image of wordpress site"
+              alt="Image of portfolio landing page"
               class="rounded-0"
             ></b-card-img>
           </b-col>
@@ -180,7 +180,7 @@
       </b-card>
       <b-row class="form-group"></b-row>
 
-      <!-- Card 4 -->
+      <!-- Card Crawler -->
       <b-card
         no-body
         class="overflow-hidden"
@@ -191,7 +191,7 @@
           <b-col md="5">
             <b-card-img
               :src="require('../assets/crawler.png')"
-              alt="Image of wordpress site"
+              alt="Image of javascrip and jquery crawler function"
               class="rounded-0"
             ></b-card-img>
           </b-col>
