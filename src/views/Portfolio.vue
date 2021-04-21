@@ -8,10 +8,6 @@
       </b-row>
 
       <b-row class="form-group"></b-row>
-      <b-row>
-        <p class="mx-auto">Uni and personal projects I have undertaken.</p>
-      </b-row>
-      <b-row class="form-group"></b-row>
 
       <!-- Card Scrabble game in C -->
 
@@ -30,7 +26,7 @@
             ></b-card-img>
           </b-col>
           <b-col md="7">
-            <b-card-body title="Scrabble Game in C">
+            <b-card-body title="Word Game in C">
               <b-img
                 src="https://img.shields.io/badge/-ANSI C-a8b9cc?logo=c&logoColor=white&style=plastic"
                 height="23px"
