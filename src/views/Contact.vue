@@ -115,10 +115,10 @@ export default {
         )
         .then(
           () => {
-            console.log("FORM SUCCESS!");  
+            // console.log("FORM SUCCESS!");  
           },
           () => {
-            console.log("FORM FAILED...");
+            // console.log("FORM FAILED...");
           }
         );
     },

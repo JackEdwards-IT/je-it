@@ -23,7 +23,10 @@ npm run serve
 ```
 npm run build
 ```
-
+### Serve the build directory
+```
+npm run start
+```
 ### Lints and fixes files
 ```
 npm run lint
