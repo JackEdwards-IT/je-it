@@ -21,7 +21,7 @@
           <b-col md="5">
             <b-card-img
               :src="require('../assets/c-game.png')"
-              alt="Image of C code"
+              alt="Screenshot of code initialising the game"
               class="rounded-0"
             ></b-card-img>
           </b-col>
@@ -30,6 +30,7 @@
               <b-img
                 src="https://img.shields.io/badge/-ANSI C-a8b9cc?logo=c&logoColor=white&style=plastic"
                 height="23px"
+                alt="ANSI C logo"
                 class="mr-1"
               ></b-img>
 
@@ -71,7 +72,7 @@
           <b-col md="5">
             <b-card-img
               :src="require('../assets/cat-site.png')"
-              alt="Image of wordpress store page"
+              alt="Screenshot of the wordpress store page"
               class="rounded-0"
             ></b-card-img>
           </b-col>
@@ -83,16 +84,19 @@
                 src="https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
+                alt="PHP logo"
               ></b-img>
               <b-img
                 src="https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
+                alt="HTML logo"
               ></b-img>
               <b-img
                 src="https://img.shields.io/badge/-CSS-1572b6?logo=css3&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
+                alt="CSS logo"
               ></b-img>
 
               <b-card-text>
@@ -137,7 +141,7 @@
           <b-col md="5">
             <b-card-img
               :src="require('../assets/portfolio-site.png')"
-              alt="Image of portfolio landing page"
+              alt="Image of the portfolio site landing page"
               class="rounded-0"
             ></b-card-img>
           </b-col>
@@ -147,16 +151,19 @@
                 src="https://img.shields.io/badge/-Vue.js-4fc08d?logo=vue.js&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
+                alt="Vue.js logo"
               ></b-img>
               <b-img
                 src="https://img.shields.io/badge/-JS-f7df1e?logo=javascript&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
+                alt="Javascript Logo"
               ></b-img>
               <b-img
                 src="https://img.shields.io/badge/-Bootstrap-7952b3?logo=bootstrap&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
+                alt="Bootstrap Logo"
               ></b-img>
 
               <b-card-text>
@@ -187,7 +194,7 @@
           <b-col md="5">
             <b-card-img
               :src="require('../assets/crawler.png')"
-              alt="Image of javascrip and jquery crawler function"
+              alt="Screenshot of some javascript and jquery crawler code."
               class="rounded-0"
             ></b-card-img>
           </b-col>
@@ -197,16 +204,19 @@
                 src="https://img.shields.io/badge/-Vue.js-4fc08d?logo=vue.js&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
+                alt="Vue.js Logo"
               ></b-img>
               <b-img
                 src="https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
+                alt="Node.js logo"
               ></b-img>
               <b-img
                 src="https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white&style=plastic"
                 height="23px"
                 class="mr-1"
+                alt="PostgreSQL logo"
               ></b-img>
 
               <b-card-text>

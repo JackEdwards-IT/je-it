@@ -77,7 +77,7 @@
             <b-link
               target="_blank"
               href="https://au.linkedin.com/in/je-it"
-              class="card-link"
+              class="card-link white-link"
               >LinkedIn Profile.</b-link
             >
           </p>
@@ -132,5 +132,9 @@ p {
   .mobile-profile {
     display: inline-flex;
   }
+}
+.white-link {
+  color: #99d3f4 !important;
+  text-decoration: underline !important;
 }
 </style>
