@@ -176,6 +176,11 @@
                 class="card-link"
                 >Github</b-link
               >
+              <b-link
+                target="_blank"
+                href="https://trello.com/b/EPRlTF5B"
+                class="card-link"
+                >Trello</b-link>
               <!-- <b-link href="#" class="card-link">PDF Overview</b-link> -->
             </b-card-body>
           </b-col>
