@@ -56,8 +56,8 @@
           <p id="writeup">
             I am interested in full stack web development, cloud computing,
             user-centred design and accessibility. I have experience with
-            multiple languages and platforms, including Java, C, Node.js,
-            Vue.js, PgSql; the implementation of these technologies can be
+            multiple languages and platforms, including Java, C, C#, Node.js,
+            Vue.js, PgSql and some Python; the implementation of these technologies can be
             viewed within the portfolio section of this site.
           </p>
           <p id="writeup" class="mt-3">

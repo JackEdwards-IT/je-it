@@ -15,7 +15,7 @@
          </b-row>
          <b-row>
            <b-col></b-col>
-            <b-col md="10"><h1><span id="red-text">IT </span>student graduating in 2021.</h1></b-col>
+            <b-col md="10"><h1><span id="red-text">IT </span>Graduate</h1></b-col>
             <b-col></b-col>
           </b-row>
           <b-row class="form-group"></b-row>
