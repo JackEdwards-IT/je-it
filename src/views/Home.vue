@@ -15,13 +15,13 @@
          </b-row>
          <b-row>
            <b-col></b-col>
-            <b-col md="10"><h1><span id="red-text">IT </span>Graduate</h1></b-col>
+            <b-col md="10"><h1><span id="red-text">IT </span>Professional</h1></b-col>
             <b-col></b-col>
           </b-row>
           <b-row class="form-group"></b-row>
           <b-row>
             <b-col></b-col>
-           <b-col md="10"> <h2 class="h2-responsive">Developing skills in full stack web development, cloud platforms, Java programming and building IOT projects in my spare time.</h2></b-col>
+           <b-col md="10"> <h2 class="h2-responsive">Currently working as a full stack developer in an environment that uses Java, Angular, Postgres and Python</h2></b-col>
           <b-col></b-col>
           </b-row>
 

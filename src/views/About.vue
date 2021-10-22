@@ -22,8 +22,7 @@
             online Bachelor of Information Technology with the Royal Melbourne
             Institute of Technology as a mature aged student.</p>
             <p class="p-responsive mt-3">
-            Returning to the
-            country, I have recently moved back to the Bega Valley area, and am
+            I have recently moved to Griffith NSW, and am
             enjoying the ease of finding a parking space when I go grocery
             shopping. In my spare time I enjoy gardening, fitness, photography,
             reading, and creating an endless cycle of new mechanical and IT
