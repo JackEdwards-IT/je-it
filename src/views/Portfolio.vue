@@ -180,7 +180,8 @@
                 target="_blank"
                 href="https://trello.com/b/EPRlTF5B"
                 class="card-link"
-                >Trello</b-link>
+                >Trello</b-link
+              >
               <!-- <b-link href="#" class="card-link">PDF Overview</b-link> -->
             </b-card-body>
           </b-col>
@@ -189,7 +190,7 @@
       <b-row class="form-group"></b-row>
 
       <!-- Card Crawler -->
-      <b-card
+      <!-- <b-card
         no-body
         class="overflow-hidden"
         style="max-width 400px;"
@@ -247,12 +248,74 @@
                 href="https://trello.com/b/Rwrt0Uhr"
                 class="card-link"
                 >Trello</b-link
+              > -->
+      <!-- <b-link target="_blank" href="#" class="card-link">PDF Overview</b-link> -->
+      <!-- 
+            </b-card-body>
+          </b-col>
+        </b-row>
+      </b-card> -->
+
+      <!-- Card Portfolio website 2 -->
+
+      <b-card
+        no-body
+        class="overflow-hidden"
+        style="max-width 400px;"
+        text-variant="white"
+      >
+        <b-row no-gutters>
+          <b-col md="5">
+            <b-card-img
+              :src="require('../assets/terminal-portfolio.png')"
+              alt="Image of the portfolio site landing page"
+              class="rounded-0"
+            ></b-card-img>
+          </b-col>
+          <b-col md="7">
+            <b-card-body title="Terminal Style Website">
+              <b-img
+                src="https://img.shields.io/badge/-JS-f7df1e?logo=javascript&logoColor=white&style=plastic"
+                height="23px"
+                class="mr-1"
+                alt="Javascript Logo"
+              ></b-img>
+              <b-img
+                src="https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=plastic"
+                height="23px"
+                class="mr-1"
+                alt="HTML logo"
+              ></b-img>
+              <b-img
+                src="https://img.shields.io/badge/-CSS-1572b6?logo=css3&logoColor=white&style=plastic"
+                height="23px"
+                class="mr-1"
+                alt="CSS logo"
+              ></b-img>
+
+              <b-card-text>
+                This is a small project utilising the Winbox.js library for the
+                window manager and some custom Javascript for the basic terminal
+                simulation. Type about or contact at the prompt to see the
+                relevant windows.
+              </b-card-text>
+              <b-link
+                target="_blank"
+                href="https://github.com/JackEdwards-IT/terminal-style-portfolio"
+                class="card-link"
+                >Github</b-link
               >
-              <!-- <b-link target="_blank" href="#" class="card-link">PDF Overview</b-link> -->
+              <b-link
+                target="_blank"
+                href="https://jackedwards-it.github.io/terminal-style-portfolio/"
+                class="card-link"
+                >Live Demo</b-link
+              >
             </b-card-body>
           </b-col>
         </b-row>
       </b-card>
+      <b-row class="form-group"></b-row>
     </b-container>
   </div>
 </template>

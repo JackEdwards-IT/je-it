@@ -17,31 +17,20 @@
         <b-col cols="7" md="6">
           <h3>Education</h3>
           <p class="p-responsive education-title">
-            Bachelor of Information Technology
+            Bachelor of Information Technology with Distinction
           </p>
           <p id="education-subtext" class="p2-responsive">2018 - 2021</p>
           <p id="education-subtext" class="p2-responsive">
             Royal Melbourne Institute of Technology
           </p>
-          <!-- <p id="education-subtext" class="p2-responsive">&#8594; Minoring in Web Design</p>
-          <p id="education-subtext" class="p2-responsive">&#8594; Distinction Average</p> -->
-          <!-- CSU -->
-          <p class="p-responsive education-title mt-2">
-            Graduate Certificate in Cloud Computing and Virtualisation
-          </p>
-          <p id="education-subtext" class="p2-responsive">2021 - Anticipated completion 2022</p>
-          <p id="education-subtext" class="p2-responsive">
-            Charles Sturt University
-          </p>
-          <!-- <p id="education-subtext" class="p2-responsive">&#8594; </p>
-          <p id="education-subtext" class="p2-responsive">&#8594; Distinction Average</p> -->
+          <p id="education-subtext" class="p2-responsive">&#8594; Minoring in Web Design</p>
         </b-col>
         <b-col cols="0" md="1"></b-col>
 
         <!-- DP -->
         <b-col cols="5" md="4">
           <img
-            src="../assets/dp-70.png"
+            src="../assets/dp-70-cropped.png"
             class="img-fluid mb-2"
             alt="Jack profile picture"
           />
@@ -57,23 +46,20 @@
             I am interested in full stack web development, cloud computing,
             user-centred design and accessibility. I have experience with
             multiple languages and platforms, including Java, C, C#, Node.js,
-            Vue.js, PgSql and some Python; the implementation of these technologies can be
-            viewed within the portfolio section of this site.
+            Vue.js, Angular, PgSql and Python. 
+          </p><p id="writeup" class="mt-3">
+            My previous role as a graduate developer had me performing routine maintenance and incremental fixes on a 
+            Java analytics backend, maintenance on client facing Angular/Java stacks and working with a Python based ETL pipeline 
+            creating new scripts and troubleshooting data issues.
           </p>
           <p id="writeup" class="mt-3">
             Personally, I am eager and motivated to take on new challenges and
             refine and apply the technical skills I have learned within my
-            degree. Although I have a minor in web development, I am flexible in
-            taking on new roles and opportunities.
+            degree and time spent as a graduate developer.
           </p>
-          <p id="writeup" class="mt-3">
-            I have recently begun a Graduate Certificate in Cloud Computing and
-            Virtualisation to further explore my personal and professional
-            interest in this area.
-          </p>
-
+        
           <p class="p-responsive mt-3" id="writeup">
-            To view my full work history prior to university see my 
+            To view my full work history see my 
             <b-link
               target="_blank"
               href="https://au.linkedin.com/in/je-it"
@@ -124,6 +110,7 @@ p {
 }
 .education-title {
   color: #35a7ff;
+  font-size: 19px;
 }
 @media only screen and (max-width: 767px) {
   .md-profile {
