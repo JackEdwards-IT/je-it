@@ -58,12 +58,9 @@
               ></b-form-textarea>
             </b-form-group>
 
-            <!-- TODO remove hardcoding of submit state to reflect response from emailJS API  -->
-
             <b-button
               :disabled="submitDisabled"
               
-              @click="sendEmail()"
               class="custom-btn"
               type="submit"
               value="Send"
@@ -88,7 +85,6 @@
             Something went wrong. Please contact me directly: Jack@je-it.com
           </div>
         </b-col>
-
         <b-col cols="0" md="2"></b-col>
       </b-row>
     </b-container>
@@ -113,10 +109,10 @@ export default {
       this.sending = true
       emailjs
         .sendForm(
-          "service_3jfiw2l",
-          "template_d9zorsq",
+          process.env.VUE_APP_EMAILJS_SERVICE,
+          process.env.VUE_APP_EMAILJS_TEMPLATE,
           this.$refs.form,
-          "user_ToFE396KP3LoLIYBpk92K"
+          process.env.VUE_APP_EMAILJS_USER,
         )
         .then(
           (result) => {
@@ -132,16 +128,6 @@ export default {
             this.submitDisabled = true
           }
         );
-    },
-
-    changeStates(outcome) {
-      if (outcome) {
-        this.messageSent = true;
-        this.submitDisabled = true;
-      } else {
-        this.messageNotSent = true;
-        this.submitDisabled = true;
-      }
     },
   },
 };
