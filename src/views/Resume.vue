@@ -43,10 +43,7 @@
         <b-col cols="12" md="10"
           ><hr />
           <p id="writeup">
-            I am interested in full stack web development, cloud computing,
-            user-centred design and accessibility. I have experience with
-            multiple languages and platforms, including Java, C, C#, Node.js,
-            Vue.js, Angular, PgSql and Python. 
+           I currently work as a Javascript developer predominantly in the frontend for large eCommerce sites built on Nuxt.js.
           </p><p id="writeup" class="mt-3">
             My previous role as a graduate developer had me performing routine maintenance and incremental fixes on a 
             Java analytics backend, maintenance on client facing Angular/Java stacks and working with a Python based ETL pipeline 

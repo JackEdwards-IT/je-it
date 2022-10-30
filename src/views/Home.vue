@@ -21,7 +21,7 @@
           <b-row class="form-group"></b-row>
           <b-row>
             <b-col></b-col>
-           <b-col md="10"> <h2 class="h2-responsive">Junior developer with experience working with full stack applications and ETL pipelines</h2></b-col>
+           <b-col md="10"> <h2 class="h2-responsive">Javascript developer with experience working with full stack applications and ETL pipelines</h2></b-col>
           <b-col></b-col>
           </b-row>
 
